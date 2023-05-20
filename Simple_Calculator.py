@@ -13,7 +13,7 @@ def calculator(number_1, number_2, operator):
     elif operator == "/":
         result = number_1 / number_2
     else:
-        result = "Please enter either +, -, *, or / only.\n It seems like you entered incorrect operator."  
+        result = "Please enter either +, -, *, or / only.\nIt seems like you entered incorrect operator."  
     
     return result
 
